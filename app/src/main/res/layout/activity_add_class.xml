@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_subject_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Asignatura" />
+
+    <EditText
+        android:id="@+id/et_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Día (e.g., Lunes)" />
+
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora (e.g., 10:00)" />
+
+    <Button
+        android:id="@+id/btn_save_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir" />
+</LinearLayout>
